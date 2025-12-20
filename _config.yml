@@ -18,15 +18,15 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Talha Khan Portfolio
-email: hello@example.com
+title: Ayan Taghiyeva Portfolio
+email: ayantaghiyeva1@gmail.com
 description: >-
-  A calm, student-friendly product design portfolio for Talha Khan,
-  showcasing thoughtful, modern work with a personal touch.
+  Personal portfolio of Ayan Taghiyeva, a first-year Electrical and Electronic Engineering
+  student at ADA University, exploring technology, design, and continuous learning.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+twitter_username:
+github_username:  ayantaghiyeva1-star
 
 # Build settings
 theme: minima

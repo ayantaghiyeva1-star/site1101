@@ -1,7 +1,7 @@
 ---
 layout: home
-title: Talha Khan | Product Design Student
-description: Friendly portfolio home for Talha Khan, a product designer based in Pakistan.
+title: Ayan Taghiyeva | Electrical and Electronic Engineering Student
+description: Friendly portfolio home for Ayan Taghiyeva, a first-year Electrical and Electronic Engineering student at ADA University.
 ---
 
 <section class="hero">
@@ -10,20 +10,20 @@ description: Friendly portfolio home for Talha Khan, a product designer based in
       <span>Hello there!</span>
     </div>
 
-    <h1>I'm <span class="highlight">Talha Khan</span><br>Product Designer<br>based in Pakistan.</h1>
+    <h1>I'm <span class="highlight">Ayan Taghiyeva</span><br>BSEEE student at ADA University.</h1>
 
     <p class="lede">
-      A product design student crafting clean, thoughtful experiences. I love blending research, prototyping, and storytelling to build products that feel friendly and useful.
+      I'm a first-year Electrical and Electronic Engineering student who is curious about how technology works and how it can make everyday life better. I enjoy learning new things, trying small projects, and slowly improving my skills step by step.
     </p>
 
     <div class="actions">
       <a class="btn primary" href="#projects">View my portfolio</a>
-      <a class="btn ghost" href="#contact">Hire me</a>
+      <a class="btn ghost" href="mailto:ayantaghiyeva1@gmail.com">Say hello</a>
     </div>
 
     <div class="meta">
       <span class="dot"></span>
-      <span>Open to internships, collabs, and remote freelance work.</span>
+      <span>Open to new projects, internships, and learning opportunities.</span>
     </div>
   </div>
 
@@ -33,14 +33,14 @@ description: Friendly portfolio home for Talha Khan, a product designer based in
       <div class="card-shape card-fill"></div>
 
       <div class="card-inner">
-        <img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=1200&q=80" alt="Portrait of Talha Khan smiling while holding a camera">
+        <img src="https://images.unsplash.com/photo-1544723795-3fb6469f5b39?auto=format&fit=crop&w=1200&q=80" alt="Portrait-style photo representing Ayan Taghiyeva">
       </div>
 
       <div class="floating-badge">
-        <div class="badge-icon">↗</div>
+        <div class="badge-icon">★</div>
         <div class="badge-text">
-          <span>Available</span>
-          <strong>for projects</strong>
+          <span>First-year</span>
+          <strong>BSEEE student</strong>
         </div>
       </div>
     </div>

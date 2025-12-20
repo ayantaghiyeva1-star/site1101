@@ -2,7 +2,7 @@
 layout: page
 title: About Me
 permalink: /about/
-description: Learn more about Talha Khan, a first-year Electrical and Electronic Engineering student and curious product designer.
+description: Learn more about Ayan Taghiyeva, a first-year Electrical and Electronic Engineering student at ADA University.
 ---
 
 <section class="about-shell">
@@ -10,7 +10,7 @@ description: Learn more about Talha Khan, a first-year Electrical and Electronic
     <p class="eyebrow">About Me</p>
     <h1>Learning, experimenting, and building my way into product and technology.</h1>
     <p class="about-intro">
-      I'm a first-year Electrical and Electronic Engineering student at ADA University.
+      I'm Ayan Taghiyeva, a first-year Electrical and Electronic Engineering (BSEEE) student at ADA University.
       I enjoy looking at how things work behind the scenes and how people actually use them in real life.
     </p>
   </header>
@@ -19,17 +19,18 @@ description: Learn more about Talha Khan, a first-year Electrical and Electronic
     <div class="about-text-card">
       <p>
         Right now, I'm in the early stages of my journey — taking in as much as I can from classes, side projects,
-        and anything that lets me connect engineering with design. I am especially curious about how hardware,
-        software, and interfaces come together to shape the experiences we use every day.
+        and volunteering. I am especially curious about how hardware, software, and real people come together to
+        shape the experiences we use every day.
       </p>
       <p>
-        I enjoy breaking ideas down, sketching them out, and then slowly improving them through feedback and
-        iteration. My goal is to keep learning new tools, understand the basics really well, and build a solid
-        foundation I can grow from over the next few years.
+        I enjoy breaking ideas down, asking questions, and then slowly improving my understanding through practice
+        and feedback. My goal during my bachelor’s degree is to build a strong technical background while also
+        improving my soft skills, like communication, teamwork, and leadership.
       </p>
       <p>
-        This portfolio is a small space where I share what I am working on, what I am learning, and how my thinking
-        changes over time as I explore both engineering and product design.
+        Volunteering is also an important part of my life — it lets me contribute to my community, meet new people,
+        and grow my confidence. This portfolio is a small space where I share what I am working on, what I am
+        learning, and how my thinking changes over time as I explore both engineering and technology in general.
       </p>
     </div>
   </section>
@@ -49,12 +50,12 @@ description: Learn more about Talha Khan, a first-year Electrical and Electronic
           <span>01</span>
         </div>
         <div class="interest-body">
-          <h3>Human‑centered interfaces</h3>
+          <h3>Learning new languages</h3>
           <p>
-            Exploring how layout, typography, and interaction patterns can make digital products feel calmer,
-            clearer, and easier to use — even for complex ideas.
+            I enjoy studying new languages and discovering how people express ideas in different cultures.
+            It helps me stay open-minded and communicate with more people.
           </p>
-          <span class="interest-tag">UI basics · product thinking</span>
+          <span class="interest-tag">Curiosity · communication</span>
         </div>
       </article>
 
@@ -65,10 +66,10 @@ description: Learn more about Talha Khan, a first-year Electrical and Electronic
         <div class="interest-body">
           <h3>Engineering fundamentals</h3>
           <p>
-            Building a strong base in circuits, signals, and embedded systems so I can understand the technology
-            behind the screens and design with real constraints in mind.
+            Building a strong base in circuits, signals, and electronics so I can understand the technology behind
+            the things we use every day and design with real constraints in mind.
           </p>
-          <span class="interest-tag">Electronics · embedded</span>
+          <span class="interest-tag">BSEEE · problem solving</span>
         </div>
       </article>
 
@@ -77,12 +78,12 @@ description: Learn more about Talha Khan, a first-year Electrical and Electronic
           <span>03</span>
         </div>
         <div class="interest-body">
-          <h3>Prototyping & side projects</h3>
+          <h3>Music & piano</h3>
           <p>
-            Trying small experiments — from interface mockups to simple hardware builds — to turn ideas into something
-            I can test, break, and learn from.
+            Playing piano helps me relax, focus, and think more creatively. I like seeing how consistent practice
+            slowly turns difficult pieces into something that feels natural.
           </p>
-          <span class="interest-tag">Sketches · quick builds</span>
+          <span class="interest-tag">Creativity · patience</span>
         </div>
       </article>
 
@@ -91,12 +92,49 @@ description: Learn more about Talha Khan, a first-year Electrical and Electronic
           <span>04</span>
         </div>
         <div class="interest-body">
-          <h3>Learning in public</h3>
+          <h3>Volunteering & community</h3>
           <p>
-            Sharing progress, questions, and unfinished thoughts so I can connect with others, receive feedback,
-            and stay accountable to my own growth.
+            Being active in volunteering lets me support others, grow my leadership skills, and build real
+            connections outside the classroom.
           </p>
-          <span class="interest-tag">Writing · reflection</span>
+          <span class="interest-tag">Leadership · teamwork</span>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section class="interests">
+    <header class="interests-header">
+      <h2>Find me online</h2>
+      <p>
+        Here are a few places where I learn, build projects, and share what I’m working on.
+      </p>
+    </header>
+
+    <div class="interests-strip">
+      <article class="interest-card">
+        <div class="interest-icon">
+          <span>GH</span>
+        </div>
+        <div class="interest-body">
+          <h3>GitHub</h3>
+          <p>
+            Small projects, experiments, and code as I learn new concepts.
+          </p>
+          <a class="interest-tag" href="https://github.com/ayantaghiyeva1-star" target="_blank" rel="noopener">Visit profile</a>
+        </div>
+      </article>
+
+      <article class="interest-card">
+        <div class="interest-icon">
+          <span>CC</span>
+        </div>
+        <div class="interest-body">
+          <h3>Codecademy</h3>
+          <p>
+            Online courses and practice problems that help me build my coding foundations.
+          </p>
+          <a class="interest-tag" href="https://www.codecademy.com/profiles/t.ayaaan" target="_blank" rel="noopener">View progress</a>
         </div>
       </article>
     </div>
