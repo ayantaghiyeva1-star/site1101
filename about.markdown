@@ -46,8 +46,10 @@ description: Learn more about Ayan Taghiyeva, a first-year Electrical and Electr
 
     <div class="interests-strip">
       <article class="interest-card">
-        <div class="interest-icon">
-          <span>01</span>
+        <div class="interest-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+            <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2 5h14M9 2v3m4 0q-2 8-9 11m2-7q2 4 6 6m1 7l5-11l5 11m-1.4-3h-7.2"/>
+          </svg>
         </div>
         <div class="interest-body">
           <h3>Learning new languages</h3>
@@ -60,8 +62,12 @@ description: Learn more about Ayan Taghiyeva, a first-year Electrical and Electr
       </article>
 
       <article class="interest-card">
-        <div class="interest-icon">
-          <span>02</span>
+        <div class="interest-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+            <rect x="7" y="8" width="10" height="8" rx="1.5" />
+            <rect x="4" y="5" width="16" height="14" rx="2" />
+            <path d="M9 11h2M13 13h2" />
+          </svg>
         </div>
         <div class="interest-body">
           <h3>Engineering fundamentals</h3>
@@ -74,8 +80,10 @@ description: Learn more about Ayan Taghiyeva, a first-year Electrical and Electr
       </article>
 
       <article class="interest-card">
-        <div class="interest-icon">
-          <span>03</span>
+        <div class="interest-icon interest-icon-filled" aria-hidden="true">
+          <svg viewBox="0 0 16 16" aria-hidden="true" focusable="false">
+            <path fill="currentColor" d="M4 3v9.4c-.4-.2-.9-.4-1.5-.4c-1.4 0-2.5.9-2.5 2s1.1 2 2.5 2S5 15.1 5 14V6.7l7-2.3v5.1c-.4-.3-.9-.5-1.5-.5C9.1 9 8 9.9 8 11s1.1 2 2.5 2s2.5-.9 2.5-2V0L4 3z"/>
+          </svg>
         </div>
         <div class="interest-body">
           <h3>Music & piano</h3>
@@ -88,8 +96,10 @@ description: Learn more about Ayan Taghiyeva, a first-year Electrical and Electr
       </article>
 
       <article class="interest-card">
-        <div class="interest-icon">
-          <span>04</span>
+        <div class="interest-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+            <path d="M12 19s-5-2.7-5-7a3 3 0 0 1 5-2.1A3 3 0 0 1 17 12c0 4.3-5 7-5 7Z" />
+          </svg>
         </div>
         <div class="interest-body">
           <h3>Volunteering & community</h3>
@@ -98,43 +108,6 @@ description: Learn more about Ayan Taghiyeva, a first-year Electrical and Electr
             connections outside the classroom.
           </p>
           <span class="interest-tag">Leadership · teamwork</span>
-        </div>
-      </article>
-    </div>
-  </section>
-
-  <section class="interests">
-    <header class="interests-header">
-      <h2>Find me online</h2>
-      <p>
-        Here are a few places where I learn, build projects, and share what I’m working on.
-      </p>
-    </header>
-
-    <div class="interests-strip">
-      <article class="interest-card">
-        <div class="interest-icon">
-          <span>GH</span>
-        </div>
-        <div class="interest-body">
-          <h3>GitHub</h3>
-          <p>
-            Small projects, experiments, and code as I learn new concepts.
-          </p>
-          <a class="interest-tag" href="https://github.com/ayantaghiyeva1-star" target="_blank" rel="noopener">Visit profile</a>
-        </div>
-      </article>
-
-      <article class="interest-card">
-        <div class="interest-icon">
-          <span>CC</span>
-        </div>
-        <div class="interest-body">
-          <h3>Codecademy</h3>
-          <p>
-            Online courses and practice problems that help me build my coding foundations.
-          </p>
-          <a class="interest-tag" href="https://www.codecademy.com/profiles/t.ayaaan" target="_blank" rel="noopener">View progress</a>
         </div>
       </article>
     </div>

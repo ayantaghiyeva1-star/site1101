@@ -17,7 +17,7 @@ description: Friendly portfolio home for Ayan Taghiyeva, a first-year Electrical
     </p>
 
     <div class="actions">
-      <a class="btn primary" href="#projects">View my portfolio</a>
+      <a class="btn primary" href="{{ '/projects/' | relative_url }}">View my portfolio</a>
       <a class="btn ghost" href="mailto:ayantaghiyeva1@gmail.com">Say hello</a>
     </div>
 
