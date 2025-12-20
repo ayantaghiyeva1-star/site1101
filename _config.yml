@@ -23,7 +23,7 @@ email: ayantaghiyeva1@gmail.com
 description: >-
   Personal portfolio of Ayan Taghiyeva, a first-year Electrical and Electronic Engineering
   student at ADA University, exploring technology, design, and continuous learning.
-baseurl: "/site-final" # the subpath of your site, e.g. /blog
+baseurl: "/site1101" # the subpath of your site (your repo name)
 url: "https://ayantaghiyeva1-star.github.io" # the base hostname & protocol for your site
 twitter_username:
 github_username:  ayantaghiyeva1-star
