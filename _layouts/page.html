@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page.title | default: site.title }}</title>
+  <meta name="description" content="{{ page.description | default: site.description }}">
+  <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
+</head>
+<body>
+  <div class="page-shell">
+    <header class="nav-shell">
+      <div class="nav-pill">
+        <a class="brand" href="{{ '/' | relative_url }}">
+          <span class="brand-mark">T</span>
+          <span class="brand-name">Talha</span>
+        </a>
+
+        <input type="checkbox" id="nav-toggle" class="nav-checkbox" aria-hidden="true">
+        <label class="nav-toggle" for="nav-toggle" aria-label="Toggle navigation">
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+
+        <nav class="nav-links" aria-label="Primary navigation">
+          <a href="{{ '/' | relative_url }}">Home</a>
+          <a href="{{ '/#services' | relative_url }}">Services</a>
+          <a href="{{ '/#projects' | relative_url }}">Projects</a>
+          <a href="{{ '/about/' | relative_url }}">About</a>
+          <a href="{{ '/#contact' | relative_url }}">Contact</a>
+        </nav>
+
+        <a class="nav-cta" href="{{ '/#contact' | relative_url }}">Contact Me</a>
+      </div>
+    </header>
+
+    <main class="page-main">
+      {{ content }}
+    </main>
+  </div>
+</body>
+</html>
+
+

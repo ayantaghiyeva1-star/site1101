@@ -426,3 +426,184 @@ main {
   }
 }
 
+/* About page */
+
+.page-main {
+  padding: clamp(40px, 7vw, 80px) 18px 80px;
+}
+
+.about-shell {
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.about-hero {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.about-hero h1 {
+  margin: 0;
+  font-size: clamp(30px, 4.2vw, 40px);
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+}
+
+.about-intro {
+  margin: 0;
+  max-width: 640px;
+  color: var(--muted);
+  font-size: 1.02rem;
+  line-height: 1.7;
+}
+
+.about-main {
+  display: flex;
+}
+
+.about-text-card {
+  background: #ffffff;
+  border-radius: 24px;
+  padding: 24px 26px;
+  border: 1px solid #e2ebfd;
+  box-shadow: 0 22px 40px -30px rgba(15, 39, 78, 0.4);
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  font-size: 0.98rem;
+  line-height: 1.8;
+  color: var(--muted);
+}
+
+.about-text-card p {
+  margin: 0;
+}
+
+.interests {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+
+.interests-header h2 {
+  margin: 0 0 6px;
+  font-size: 1.3rem;
+}
+
+.interests-header p {
+  margin: 0;
+  max-width: 620px;
+  font-size: 0.98rem;
+  color: var(--muted);
+  line-height: 1.7;
+}
+
+.interests-strip {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.interest-card {
+  flex: 1 1 220px;
+  min-width: min(100%, 260px);
+  max-width: 320px;
+  background: linear-gradient(140deg, rgba(255, 255, 255, 0.94), rgba(226, 236, 255, 0.96));
+  border-radius: 22px;
+  padding: 18px 18px 18px 16px;
+  border: 1px solid rgba(31, 79, 139, 0.12);
+  display: flex;
+  gap: 14px;
+  align-items: flex-start;
+  box-shadow: 0 18px 38px -28px rgba(15, 39, 78, 0.7);
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease;
+}
+
+.interest-card::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(160% 120% at 0% 0%, rgba(31, 79, 139, 0.08), transparent 55%);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.18s ease;
+}
+
+.interest-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 24px 48px -30px rgba(15, 39, 78, 0.85);
+  border-color: rgba(31, 79, 139, 0.3);
+}
+
+.interest-card:hover::after {
+  opacity: 1;
+}
+
+.interest-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 14px;
+  background: #ffffff;
+  border: 1px solid #cfddfb;
+  display: grid;
+  place-items: center;
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--primary-strong);
+  flex-shrink: 0;
+  box-shadow: 0 14px 30px -22px rgba(0, 0, 0, 0.6);
+}
+
+.interest-body {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.interest-body h3 {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.interest-body p {
+  margin: 0;
+  font-size: 0.92rem;
+  color: var(--muted);
+  line-height: 1.6;
+}
+
+.interest-tag {
+  align-self: flex-start;
+  margin-top: 4px;
+  padding: 4px 8px;
+  border-radius: 999px;
+  background: rgba(31, 79, 139, 0.06);
+  border: 1px dashed rgba(31, 79, 139, 0.25);
+  font-size: 0.78rem;
+  color: var(--primary-strong);
+}
+
+@media (max-width: 720px) {
+  .page-main {
+    padding-top: 32px;
+  }
+
+  .about-shell {
+    gap: 32px;
+  }
+
+  .interests-strip {
+    flex-direction: column;
+  }
+
+  .interest-card {
+    max-width: 100%;
+  }
+}
+
