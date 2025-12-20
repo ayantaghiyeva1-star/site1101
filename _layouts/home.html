@@ -9,35 +9,13 @@
 </head>
 <body>
   <div class="page-shell">
-    <header class="nav-shell">
-      <div class="nav-pill">
-        <a class="brand" href="{{ '/' | relative_url }}">
-          <span class="brand-mark">A</span>
-          <span class="brand-name">Ayan</span>
-        </a>
-
-        <input type="checkbox" id="nav-toggle" class="nav-checkbox" aria-hidden="true">
-        <label class="nav-toggle" for="nav-toggle" aria-label="Toggle navigation">
-          <span></span>
-          <span></span>
-          <span></span>
-        </label>
-
-        <nav class="nav-links" aria-label="Primary navigation">
-          <a href="#home">Home</a>
-          <a href="#services">Services</a>
-          <a href="#projects">Projects</a>
-          <a href="#about">About</a>
-          <a href="#contact">Contact</a>
-        </nav>
-
-        <a class="nav-cta" href="#contact">Contact Me</a>
-      </div>
-    </header>
+    {% include navbar.html %}
 
     <main id="home">
       {{ content }}
     </main>
+
+    {% include footer.html %}
   </div>
 </body>
 </html>

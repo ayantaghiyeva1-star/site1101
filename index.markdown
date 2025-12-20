@@ -33,7 +33,7 @@ description: Friendly portfolio home for Ayan Taghiyeva, a first-year Electrical
       <div class="card-shape card-fill"></div>
 
       <div class="card-inner">
-        <img src="https://images.unsplash.com/photo-1544723795-3fb6469f5b39?auto=format&fit=crop&w=1200&q=80" alt="Portrait-style photo representing Ayan Taghiyeva">
+        <img src="{{ '/assets/images/ayan.png' | relative_url }}" alt="Portrait of Ayan Taghiyeva">
       </div>
 
       <div class="floating-badge">
